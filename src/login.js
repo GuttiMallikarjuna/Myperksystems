@@ -46,7 +46,7 @@ const Login = () => {
                     <input type="password" className='form-control'  placeholder='Password' value={password} onChange={(e)=>setPassword(e.target.value)}/>
                     {errors.password && <p style={{color:'red',textAlign:'center'}}>{errors.password}</p>}
                     <button type='submit' className='btn btn-primary loginbtn'>Login</button><br/>
-                    <span id="lostpassword"><a href='##' >Lost Password</a></span>
+                    <span id="lostpassword"><a href='##' >Forgot Password</a></span>
                    </form>
                 </div>
             </div>
