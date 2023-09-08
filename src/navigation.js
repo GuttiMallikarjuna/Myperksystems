@@ -4,9 +4,9 @@ import { NavLink } from "react-router-dom";
 
 const Navigation = () => {
   
-  setTimeout(()=>{
-    document.getElementById("linkid").click();
-  },1000)
+  // setTimeout(()=>{
+  //   document.getElementById("linkid").click();
+  // },1000)
     return (
         <div id="home-header" className='sticky-top'>
             <header>
